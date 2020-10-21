@@ -3,6 +3,7 @@ package fin;
 import java.util.regex.Pattern;
 import fin.Group;
 
+
 public enum Categorie {
 	KONTOAUSGLEICH(Group.IGNORE),
 	HINNERBAECKER(Group.IGNORE),
