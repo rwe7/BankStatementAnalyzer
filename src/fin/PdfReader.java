@@ -33,7 +33,7 @@ public class PdfReader {
 
 		System.err.close();
 		START_DATE = MlpLinesReader.dateFormat.parse("01.01.2019");
-		END_DATE = MlpLinesReader.dateFormat.parse("31.12.2020");
+		END_DATE = MlpLinesReader.dateFormat.parse("31.12.2021");
 		MONTHS = 1;
 		String folder = "C:\\Users\\ASUS\\Google Drive\\Rechnungen_Finanzen\\Kontoauszuege";
 		PdfReader pdfReader = new PdfReader();
